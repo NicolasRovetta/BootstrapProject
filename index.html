@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Coffee Spot</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="img/cup-hot.png" />
+</head>
+
+<body>
+             <!-- NAV BAR -->
+
+  <nav class="navbar sticky-top navbar-expand-lg bg-success">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="img/logo-cafe.png" alt="logo café" class="logocafe" /></a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon border-0"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#"><strong>Inicio</strong></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="menu.html#carta-y-precios">Menú</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Sucursales
+            </a>
+            <ul class="dropdown-menu bg-secondary">
+              <li><a class="dropdown-item" href="lujan.html">Luján</a></li>
+              <li><a class="dropdown-item" href="palermo.html">Palermo</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <main class="pt-5 bg-gradiente">
+    <div class="container">
+      <section class="row align-items-lg-center mb-5"> <!-- row for text + img-->
+        <article class="col-12 col-lg-5">
+          <h2 class="fs-3">No solo es una café.</h2>
+          <p>
+            Un lugar donde tomar café es una experiencia única.
+          </p>
+          <a href="#servicios" class="btn btn-success fw-bold">¡Conocenos!</a>
+        </article>
+        <article class="col-12 col-lg-7">
+          <img src="img/logo-main-cafe.png" alt="logo de cafe del main" class="img-fluid" />
+        </article>
+        <article class="col-12 col-lg-5 order-lg-1">
+          <h2 class="fs-3">¿Conoces las etapas de produccion de nuestros productos?</h2>
+          <p>
+            Se trata de un proceso complejo que requiere gran dedicación y experiencia para conseguir una calidad
+            excepcional y sin igual.
+          </p>
+          <a href="https://i.pinimg.com/564x/04/26/b1/0426b1e14b954746bd5b7ec53e13724f.jpg" target="_blank" class="btn btn-success fw-bold">Proceso y producción</a>
+        </article>
+        <article class="col-12 col-lg-7">
+          <img src="img/img-main-2.png" alt="imagen del proceso de produccion del cafe" class="img-fluid img-fluid-2" />
+        </article>
+      </section>
+
+      <!-- SECTION OF TARGETS -->
+
+      <section id="servicios" class="row min-vh-100"> <!-- row targert of services-->
+        <article class="col-12 col-md-6 col-lg-3 d-flex">
+          <div class="card mx-auto mb-5" style="width: 18rem;">
+            <img src="img/logo-tienda.svg" class="card-img-top bg-success p-5"   alt="tienda e-commerce">
+            <div class="card-body">
+              <h5 class="card-title">Tienda</h5>
+              <p class="card-text">¿Querés recibir nuestros productos a domicilio?
+              </p>
+              <a href="e-commerce.html" class="linkcardcolor">
+                Más detalles
+                <i class="bi bi-chevron-right"></i>
+              </a>
+            </div>
+          </div>
+        </article>
+        <article class="col-12 col-md-6 col-lg-3 d-flex">
+          <div class="card mx-auto mb-5" style="width: 18rem;">
+            <img src="img/quote.svg" class="card-img-top bg-success p-4" alt="reseña de clientes">
+            <div class="card-body">
+              <h5 class="card-title">Clientes</h5>
+              <p class="card-text">
+                Reseñas de nuestros clientes
+              </p>
+              <a href="#" class="linkcardcolor">
+                Más detalles
+                <i class="bi bi-chevron-right"></i>
+              </a>
+            </div>
+          </div>
+        </article>
+        <article class="col-12 col-md-6 col-lg-3 d-flex">
+          <div class="card mx-auto mb-5" style="width: 18rem;">
+            <img src="img/icon-seed-cofee.svg" class="card-img-top bg-success p-4" alt="seed of cofee">
+            <div class="card-body">
+              <h5 class="card-title">Origen de nuestros granos</h5>
+              <p class="card-text">
+                Conoce los lugares donde cosechamos nuestros granos de café en el mundo
+              </p>
+              <a href="#" class="linkcardcolor">
+                Más detalles
+                <i class="bi bi-chevron-right"></i>
+              </a>
+            </div>
+          </div>
+        </article>
+        <article class="ccol-12 col-md-6 col-lg-3 d-flex">
+          <div class="card mx-auto mb-5" style="width: 18rem;">
+            <img src="img/calendar-card.svg" class="card-img-top bg-success p-5" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Próximos eventos</h5>
+              <p class="card-text">
+                Eventos especiales con los mejores baristas
+              </p>
+              <a href="#" class="linkcardcolor">
+                Más detalles
+                <i class="bi bi-chevron-right" style="font-size:small;"></i>
+              </a>
+            </div>
+          </div>
+        </article>
+      </section>
+    </div>
+  </main>
+
+  <!------- FOOTER ------->
+
+  <footer class="bg-success p-3">
+    <div class="container text-center">
+      <nav class="d-flex justify-content-evenly">
+        <a href="https://facebook.com" target="_blan"><i class="bi bi-facebook fs-3"></i></a>
+        <a href="https://twitter.com" target="_blan"><i class="bi bi-twitter fs-3"></i></a>
+        <a href="https://github.com" target="_blan"><i class="bi bi-github fs-3"></i></a><a href="https://youtube.com"
+          target="_blan"><i class="bi bi-youtube fs-3"></i></a><a href="https://instagram.com" target="_blan"><i
+            class="bi bi-instagram fs-3"></i></a><a href="https://api.whatsapp.com/send?phone=5192323613016"
+          target="_blan"><i class="bi bi-whatsapp fs-3"></i></a><a href="https://m.me/user" target="_blan"><i
+            class="bi bi-messenger fs-3"></i></a>
+      </nav>
+      <nav class=""></nav>
+      <small class="text-black">&copy; 2024 <b>DNR</b>. Desarrollo utilizando bootstrap</small>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
