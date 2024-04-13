@@ -122,6 +122,11 @@ h1 {
   border-bottom: 1px solid #999;
 }
 
+.img-item{
+   width: 120px;
+   height: 120px;
+}
+
 /*/ X-Small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap
 
